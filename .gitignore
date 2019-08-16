@@ -1,3 +1,5 @@
+training_animations/
+
 #ignore the images from the dataset
 *.jpeg
 *.jpg

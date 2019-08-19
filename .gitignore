@@ -8,3 +8,6 @@ training_animations/
 
 #ignore zipped version of dataset
 *.zip
+
+#ignore videos (for now) there are a lot and they are too large
+*.mp4

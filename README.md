@@ -17,7 +17,7 @@ All of the data here was collected from an image scrapper that goes onto google 
 few hundred images per keyword. This yieled a dataset of aroun 900 images which I went onto clean by 
 hand to reach around 400 good quality images. 
 
-![shipibo textile](animations/readme images/00000011.jpg)
+![shipibo textile](/animations/readme images/00000011.jpg)
 
 # 2) Data Preperation and Augmentation
 

@@ -17,8 +17,26 @@ All of the data here was collected from an image scrapper that goes onto google 
 few hundred images per keyword. This yieled a dataset of aroun 900 images which I went onto clean by 
 hand to reach around 400 good quality images. 
 
+![shipibo textile](animations/readme images/00000011.jpg)
+
+# 2) Data Preperation and Augmentation
+
 The problem is that this dataset was nowhere near enough to be able to train a proper GAN on it. In 
 order to greatly increase the amount of data I relied on some aggressive data augmentation techniques
 in order to squeeze out as much data as possible. I had to sacrifice the high level details and symetry
 of the original images in order to take a lot of random slices from the original picture which I would
-then 
+then flip horizontally and vertically plus rotate 45°. With all this and taking enough slices would 
+leave me with around 25 000 pictures. This is a very dramatic increase in terms of data but it was 
+necessary to have a pretty aggressive data augmentation technique in order to get good results.
+
+
+# 3) model training
+
+This repository will hold a lot of the experimentation that went into making this project succesfull. I 
+will most likely create a more compact repo with less elements and python code rather than notebooks 
+once I have found how to to implement everything properly and have found the right architecture.
+
+The models available here were insipired from the DCGAN architecture and follow a lot of the same 
+principles from that model and paper.
+
+V1 models were a big failure as they relied on the poor dataset and sadly never converged towards any intersting visuals

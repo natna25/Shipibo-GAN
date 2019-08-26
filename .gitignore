@@ -1,13 +1,15 @@
+#ignore certain folders that contain a lot of our data keep separate folder for building git repo page
 training_animations/
+assets/ 
 
 #ignore the images from the dataset
-*.jpeg
-*.jpg
-*.gif
-*.png
+#*.jpeg
+#*.jpg
+#*.gif
+#*.png
 
 #ignore zipped version of dataset
-*.zip
+#*.zip
 
 #ignore videos (for now) there are a lot and they are too large
-*.mp4
+#*.mp4

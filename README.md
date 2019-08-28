@@ -48,4 +48,4 @@ V2 models were better, I used the augmented image dataset which yielded greatly 
 
 ![generated image](animations/readme_images/shipibo_64_black_08800.png)
 
-![training animation](animations/readme_images/test_gif_128.mp4)
+![training animation](animations/readme_images/128_white_train.mp4)

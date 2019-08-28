@@ -31,7 +31,8 @@ necessary to have a pretty aggressive data augmentation technique in order to ge
 
 ![shipibo slice](animations/readme_images/0_256.jpg)
 ![shipibo slice](animations/readme_images/326_256.jpg)
-![shipibo slice](animations/readme_images/742_256.jpg)
+![shipibo slice](animations/readme_images/1224_256.jpg)
+![shipibo slice](animations/readme_images/2183_256.jpg)
 
 # 3) model training
 

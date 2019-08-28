@@ -29,6 +29,9 @@ then flip horizontally and vertically plus rotate 45°. With all this and taking
 leave me with around 25 000 pictures. This is a very dramatic increase in terms of data but it was 
 necessary to have a pretty aggressive data augmentation technique in order to get good results.
 
+![shipibo slice](animations/readme_images/0_256.jpg)
+![shipibo slice](animations/readme_images/326_256.jpg)
+![shipibo slice](animations/readme_images/742_256.jpg)
 
 # 3) model training
 
@@ -40,3 +43,9 @@ The models available here were insipired from the DCGAN architecture and follow 
 principles from that model and paper.
 
 V1 models were a big failure as they relied on the poor dataset and sadly never converged towards any intersting visuals
+
+V2 models were better, I used the augmented image dataset which yielded greatly superior results compared to before. Here are some example pictures and gifs of the training process and end generated images.
+
+![generated image](animations/readme_images/shipibo_64_black_08800.png)
+
+![training animation](animations/readme_images/test_gif_128.mp4)

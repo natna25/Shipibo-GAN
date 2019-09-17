@@ -50,3 +50,15 @@ V2 models were better, I used the augmented image dataset which yielded greatly 
 ![generated image](animations/readme_images/shipibo_64_black_08800.png)
 
 ![training animation](animations/readme_images/128_white_train.gif)
+
+
+# 4) Updated Results
+After some hyperparameter tuning, I was able to achieve much better results and to prevent mode collapse for the most part. In the end, the model complexity did nothing for this and it was simply a question of properly tuning the Dropout layers in the model. 
+Too much dropout and the generated images would start to develop color and texture but there were never any proper edges developping. Too little dropout and it leads to mode collapse and instability. 
+I ended up going with dropout on both the generator and discriminator, hovering around 35% on the discriminator and more towards 30% for the generator with a higher dropout at the begining layers than the final layers. Training for a long time led to worse results and failure by mode collapse. Training stability was better but still left to be desired, never converging towards a single mode. This could be due to aggressive augmentation which would bias against the true data distribution and leaves the GAN running in circles.
+
+Here are some of the generated images that show very good diversity
+[image grid]
+
+
+If the generated images are better, one thing that improved was latent space interpolation for generating animations. The network was better able to map transitions between the different modes. Still, it seems that the animations lack a certain amount of diversity
